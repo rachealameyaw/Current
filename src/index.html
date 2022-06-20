@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Ionic App</title>
+
+  <base href="/" />
+
+  <meta name="color-scheme" content="light dark" />
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <link rel="icon" type="image/png" href="assets/icon/favicon.png" />
+
+  <!-- add to homescreen for ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+</head>
+
+<body>
+  <ion-app>
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-icon name="reorder-four" slot="end" size="large"></ion-icon>
+        <ion-title>
+          Obaano</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size-md="10">
+
+
+
+              <ion-card-content>
+                <ion-button (click)="toggleInfiniteScroll()" expand="block" color="light">
+                  Find a Doctor
+                </ion-button>
+                <ion-button (click)="toggleInfiniteScroll()" expand="block" color="light">
+                  Medical Appointments
+                </ion-button>
+                <ion-button (click)="toggleInfiniteScroll()" expand="block" color="light">
+                  Online Pharmacy
+                </ion-button>
+                <ion-button (click)="toggleInfiniteScroll()" expand="block" color="light">
+                  The Psychologists' Clinic
+                </ion-button>
+                <ion-button (click)="toggleInfiniteScroll()" expand="block" color="light">
+                  First Aid/Emergency Healthcare
+                </ion-button>
+                <ion-button (click)="toggleInfiniteScroll()" expand="block" color="light">
+                  Reproductive Health Section
+                </ion-button>
+                <ion-button (click)="toggleInfiniteScroll()" expand="block" color="light">
+                 Counseling Services
+                </ion-button><ion-button (click)="toggleInfiniteScroll()" expand="block" color="light">
+                  Menstrual Period Tracker
+                </ion-button>
+                <ion-button (click)="toggleInfiniteScroll()" expand="block" color="light">
+                  Nutrition and Diet management
+                </ion-button>
+                <ion-button (click)="toggleInfiniteScroll()" expand="block" color="light">
+                  Health Education
+                </ion-button>
+                <ion-button (click)="toggleInfiniteScroll()" expand="block" color="light">
+                  Anti-natal and Post-Natal Clinic
+                </ion-button>
+
+
+
+
+
+
+
+
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <ion-content>
+
+        <ion-list></ion-list>
+
+
+      </ion-content>
+
+    </ion-content>
+    <ion-button size="small">
+    <ion-icon color="primary" slot="end" name="search"></ion-icon>Explore</ion-button>
+  </ion-app>
+  <script src="app.js"></script>
+  <app-root></app-root>
+</body>
+
+</html>

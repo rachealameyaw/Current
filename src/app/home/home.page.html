@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+     Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <div class="onboard-main">
+<div class="onboard-top">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button color="primary" (click)="goBack()">
+        <ion-icon name="chevron-back" slot="icon-only"></ion-icon>
+      </ion-button>
+
+      <ion-button color="dark" (click)="skipBtn()" fill="clear">
+        screen_lock_portrait
+      </ion-button>
+
+
+    </ion-buttons>
+  </ion-toolbar>
+</div>
+<div class="onboard-bot">
+  <ion-slides pager="true">
+
+    <ion-slide>
+     <div class="onb-card">
+       <div class="onb-img"></div>
+       <img src="../../assets/image/u3.png" alt="">
+       <div class="onb-desc ion-text-center"></div>
+       <h4 class="ion-text-capitalize ion-no-margin">Providing Quality Healthcare For Women</h4>
+       <P class="ion-no-margin"> Lorem ipsum dolor sit, amet consectetur
+       </P>
+     </div>
+    </ion-slide>
+
+
+  </ion-slides>
+</div>
+  </div>
+
+
+</ion-content>
+
